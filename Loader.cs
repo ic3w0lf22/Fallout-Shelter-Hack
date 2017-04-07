@@ -12,8 +12,6 @@ namespace FS_Hack
 {
     public class Loading : MonoBehaviour
     {
-        private static bool injected = false;
-        private static Thread _thread;
         private static GameObject hookObject = null;
 
         private static void runHack()
